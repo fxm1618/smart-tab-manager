@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tab Suspended</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    .container {
+      text-align: center;
+      color: white;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 48px;
+      margin: 0 0 20px 0;
+    }
+    p {
+      font-size: 18px;
+      opacity: 0.9;
+      margin: 10px 0;
+    }
+    button {
+      margin-top: 30px;
+      padding: 15px 40px;
+      font-size: 16px;
+      background: white;
+      color: #667eea;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💤</h1>
+    <p id="title">Tab Suspended</p>
+    <p style="font-size: 14px; opacity: 0.7;">Saving memory for better performance</p>
+    <button onclick="restore()">Restore Tab</button>
+  </div>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const url = params.get('url');
+    const title = params.get('title');
+    if (title) document.getElementById('title').textContent = title;
+    function restore() {
+      if (url) window.location.href = url;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Tab Manager</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>🧠 Smart Tab Manager</h1>
+    <div class="stats">
+      <span id="tabCount">0 tabs</span>
+    </div>
+  </div>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="🔍 Search tabs...">
+  </div>
+
+  <div class="actions">
+    <button id="groupBtn" class="btn-primary">📁 Auto Group</button>
+    <button id="saveBtn" class="btn-secondary">💾 Save Session</button>
+  </div>
+
+  <div id="tabList" class="tab-list"></div>
+
+  <div class="footer">
+    <a href="#" id="upgradeLink">⭐ Upgrade to Pro</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
