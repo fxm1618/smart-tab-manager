@@ -4,6 +4,10 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/fxm1618/smart-tab-manager?style=social)](https://github.com/fxm1618/smart-tab-manager)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Chrome Users](https://img.shields.io/badge/users-1K+-green.svg)](https://github.com/fxm1618/smart-tab-manager)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/fxm1618/smart-tab-manager/pulls)
+
+> 💡 **Love this project? [⭐ Star it](https://github.com/fxm1618/smart-tab-manager) and [💖 Sponsor](https://github.com/sponsors/fxm1618)**
 
 > 🎯 Organize 100+ tabs instantly with AI-powered categorization
 
